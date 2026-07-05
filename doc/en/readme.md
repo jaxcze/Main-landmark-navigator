@@ -1,6 +1,6 @@
 # Main Landmark Navigator
 
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 **Author:** 2026 Jan Balák & Claude  
 **License:** GNU General Public License, version 2  
 **Minimum NVDA version:** 2025.3  
@@ -90,6 +90,9 @@ is the same internal API used by NVDA's own quick-navigation commands.
 ---
 
 ## Changelog
+
+### 1.0.1 (2026-07-03)
+- Fixed: `url` field in `manifest.ini` now points directly to the add-on's presentation page (required by the NVDA Add-on Store).
 
 ### 1.0.0 (2026-06-29)
 - Initial release.

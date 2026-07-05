@@ -1,6 +1,6 @@
 # Navigátor hlavnej oblasti
 
-**Verzia:** 1.0.0  
+**Verzia:** 1.0.1  
 **Autor:** 2026 Jan Balák & Claude  
 **Licencia:** GNU General Public License, verzia 2  
 **Minimálna verzia NVDA:** 2025.3  
@@ -93,6 +93,9 @@ Ak v požadovanom smere žiadna hlavná oblasť neexistuje, NVDA oznámi:
 ---
 
 ## Protokol zmien
+
+### 1.0.1 (2026-07-03)
+- Oprava: pole `url` v `manifest.ini` teraz odkazuje priamo na prezentačnú stránku doplnku (požiadavka NVDA Add-on Store).
 
 ### 1.0.0 (2026-06-29)
 - Prvé vydanie.

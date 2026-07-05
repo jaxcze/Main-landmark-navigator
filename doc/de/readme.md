@@ -1,6 +1,6 @@
 # Hauptbereich-Navigator
 
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 **Autor:** 2026 Jan Balák & Claude  
 **Lizenz:** GNU General Public License, Version 2  
 **Mindest-NVDA-Version:** 2025.3  
@@ -94,6 +94,9 @@ Wenn in der gewünschten Richtung kein Hauptbereich vorhanden ist, gibt NVDA aus
 ---
 
 ## Änderungsprotokoll
+
+### 1.0.1 (2026-07-03)
+- Korrektur: Das Feld `url` in `manifest.ini` verweist jetzt direkt auf die Präsentationsseite der Erweiterung (Anforderung des NVDA-Add-on-Stores).
 
 ### 1.0.0 (2026-06-29)
 - Erstveröffentlichung.
