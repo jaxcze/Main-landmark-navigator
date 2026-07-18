@@ -1,0 +1,28 @@
+# Main Landmark Navigator — German translation
+# Copyright (C) 2026 Jan Balák & Claude
+msgid ""
+msgstr ""
+"Project-Id-Version: mainLandmarkNavigator 1.0.1\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "No next main region"
+msgstr "Kein nächster Hauptbereich"
+
+msgid "No previous main region"
+msgstr "Kein vorheriger Hauptbereich"
+
+msgid "Moves to the next main region on the web page"
+msgstr "Springt zum nächsten Hauptbereich der Webseite"
+
+msgid "Moves to the previous main region on the web page"
+msgstr "Springt zum vorherigen Hauptbereich der Webseite"
+
+msgid "Main region"
+msgstr "Hauptbereich"
+
+msgid "Browse mode"
+msgstr "Lesemodus"

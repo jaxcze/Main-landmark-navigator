@@ -1,0 +1,28 @@
+# Main Landmark Navigator — Slovak translation
+# Copyright (C) 2026 Jan Balák & Claude
+msgid ""
+msgstr ""
+"Project-Id-Version: mainLandmarkNavigator 1.0.1\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "No next main region"
+msgstr "Žiadna ďalšia hlavná oblasť"
+
+msgid "No previous main region"
+msgstr "Žiadna predchádzajúca hlavná oblasť"
+
+msgid "Moves to the next main region on the web page"
+msgstr "Presunie sa na ďalšiu hlavnú oblasť na webovej stránke"
+
+msgid "Moves to the previous main region on the web page"
+msgstr "Presunie sa na predchádzajúcu hlavnú oblasť na webovej stránke"
+
+msgid "Main region"
+msgstr "Hlavná oblasť"
+
+msgid "Browse mode"
+msgstr "Režim prehliadania"
