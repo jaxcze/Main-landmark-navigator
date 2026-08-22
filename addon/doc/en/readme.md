@@ -1,6 +1,6 @@
 # Main Landmark Navigator
 
-**Version:** 1.0.2
+**Version:** 1.0.3
 **Author:** 2026 Jan Balák & Claude
 **License:** GNU General Public License, version 2
 **Minimum NVDA version:** 2019.3
@@ -13,7 +13,7 @@ Main Landmark Navigator adds single-key quick navigation for the `<main>` ARIA l
 
 ## Installation
 
-1. Download `mainLandmarkNavigator-1.0.1.nvda-addon`.
+1. Download `mainLandmarkNavigator-1.0.3.nvda-addon`.
 2. Open the file while NVDA is running and confirm the installation.
 3. Restart NVDA when asked.
 
@@ -38,6 +38,10 @@ When no main region exists in the requested direction, NVDA announces:
 Open **NVDA menu → Preferences → Input Gestures**, search for *main*, find the commands under the **Browse mode** category and reassign as needed.
 
 ## Changelog
+
+### 1.0.3 (2026-08-22)
+- Fixed: main-landmark detection no longer runs a redundant slow fallback check for every non-main landmark once the fast path already gave a definitive answer, improving J / Shift+J responsiveness on pages with many landmarks.
+- Removed unmaintained duplicate copies of the plugin source and docs that lived outside `addon/` and were never packaged by `build.py`.
 
 ### 1.0.2 (2026-07-18)
 - Scripts moved to `VirtualBuffer` class: J / Shift+J are now announced in input help (NVDA+1) only when a web virtual buffer is active, matching the behaviour of built-in quick-nav keys (H, L, T …).

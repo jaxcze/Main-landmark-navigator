@@ -8,8 +8,15 @@ Requires: Python 3.6+, gettext (msgfmt on PATH)
 import os, sys, subprocess, zipfile
 from pathlib import Path
 
+# Windows consoles often use a legacy codepage (e.g. cp1250) that can't
+# encode the ✓ / → / … characters below; fall back to UTF-8 so the build
+# doesn't fail with a UnicodeEncodeError after already succeeding.
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+
 ADDON_NAME  = "mainLandmarkNavigator"
-VERSION     = "1.0.2"
+VERSION     = "1.0.3"
 OUTPUT_FILE = f"{ADDON_NAME}-{VERSION}.nvda-addon"
 
 ROOT       = Path(__file__).resolve().parent

@@ -1,6 +1,6 @@
 # Main Landmark Navigator
 
-**Verzia:** 1.0.2
+**Verzia:** 1.0.3
 **Autor:** 2026 Jan Balák & Claude
 **Licencia:** GNU General Public License, verzia 2
 **Minimálna verzia NVDA:** 2019.3
@@ -13,7 +13,7 @@ Main Landmark Navigator pridáva jednoklávesovú rýchlu navigáciu pre orienta
 
 ## Inštalácia
 
-1. Stiahnite súbor `mainLandmarkNavigator-1.0.1.nvda-addon`.
+1. Stiahnite súbor `mainLandmarkNavigator-1.0.3.nvda-addon`.
 2. Otvorte súbor pri spustenom NVDA a potvrďte inštaláciu.
 3. Na požiadanie reštartujte NVDA.
 
@@ -28,11 +28,9 @@ Klávesy fungujú iba v prehliadacom režime NVDA. Nápoveda k vstupu (NVDA+1 po
 
 ## Zoznam zmien
 
-### 1.1.0 (2026-07-18)
-- Skripty presunuté na VirtualBuffer: pomocník pre vstupné gestá (Insert+1) teraz hlási J / Shift+J iba vtedy, keď je focus vo webovom prehliadači (prehliadací režim).
-- Pridaný dekorátor `@script` pre popis a kategóriu v dialógu Vstupné gestá (API NVDA 2019.3+).
-- Znížená minimálna verzia NVDA z 2025.3 na 2019.3.
-- Pridané súbory README, LICENSE a PROMPTS.md do repozitára.
+### 1.0.3 (2026-08-22)
+- Oprava: detekcia hlavnej oblasti (landmark „main") už pri nesúvisiacich orientačných bodoch zbytočne nespúšťa aj pomalú záložnú kontrolu potom, čo rýchla cesta už dala jednoznačnú odpoveď.
+- Odstránené neudržiavané duplicitné kópie zdrojového kódu a dokumentácie mimo adresára `addon/`.
 
 ### 1.0.2 (2026-07-18)
 - Oprava: minimálna verzia NVDA znížená z 2025.3 na 2019.3 — doplnok nepoužíva žiadne API špecifické pre 2025.3.

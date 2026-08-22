@@ -8,8 +8,8 @@ focuses exclusively on the main landmark instead of all landmarks (D / Shift+D).
 
 ## Download
 
-Latest release: **1.0.2**  
-[Download mainLandmarkNavigator-1.0.2.nvda-addon](https://github.com/janbalak/mainLandmarkNavigator/releases/latest)
+Latest release: **1.0.3**  
+[Download mainLandmarkNavigator-1.0.3.nvda-addon](https://github.com/janbalak/mainLandmarkNavigator/releases/latest)
 
 Add-on homepage: <https://nvda-addons.janbalak.name/main-landmark-navigator/>
 
@@ -33,7 +33,7 @@ Add-on homepage: <https://nvda-addons.janbalak.name/main-landmark-navigator/>
 
 ## Installation
 
-1. Download `mainLandmarkNavigator-1.0.2.nvda-addon`.
+1. Download `mainLandmarkNavigator-1.0.3.nvda-addon`.
 2. Open the file while NVDA is running (Enter or double-click).
 3. Confirm the installation prompt and restart NVDA.
 
@@ -47,7 +47,7 @@ cd mainLandmarkNavigator
 python build.py
 ```
 
-Output: `mainLandmarkNavigator-1.0.2.nvda-addon`
+Output: `mainLandmarkNavigator-1.0.3.nvda-addon`
 
 ## License
 
@@ -58,6 +58,14 @@ GNU General Public License v2 — see [LICENSE](LICENSE).
 Jan Balák & Claude (Anthropic) — <https://janbalak.name>
 
 ## Changelog
+
+### 1.0.3 (2026-08-22)
+- Fixed: main-landmark detection no longer runs a redundant slow fallback
+  check for every non-main landmark once the fast path already gave a
+  definitive answer, improving J / Shift+J responsiveness on pages with
+  many landmarks.
+- Removed unmaintained duplicate copies of the plugin source and docs that
+  lived outside `addon/` and were never packaged by `build.py`.
 
 ### 1.0.2 (2026-07-18)
 - Scripts moved to `VirtualBuffer` class: J / Shift+J are now announced in

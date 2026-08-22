@@ -64,12 +64,15 @@ def _is_main_landmark(item):
     if vbuf_node is not None:
         try:
             attrs = vbuf_node.fieldAttributes
-            landmark = attrs.get('landmark') or attrs.get('landmarkRole') or ''
-            if landmark.strip().lower() == 'main':
-                return True
+            landmark = attrs.get('landmark') or attrs.get('landmarkRole')
+            if landmark is not None:
+                # Fast path gave a definitive answer — trust it and skip
+                # the slower NVDAObject fallback below entirely.
+                return landmark.strip().lower() == 'main'
         except Exception:
             pass
-    # Fallback — NVDAObject.landmark property
+    # Fallback — NVDAObject.landmark property (only when the fast path
+    # was unavailable or failed, not just because it said "not main").
     try:
         obj = item.obj
         if obj is not None:
