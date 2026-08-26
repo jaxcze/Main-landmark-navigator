@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Main Landmark Navigator — NVDA global plugin
-# Copyright (C) 2026 Jan Balák & Claude
+# Copyright (C) 2026 Jan Balák
 # Released under the GNU General Public License, version 2.
 #
 # Navigates between <main> / role="main" landmarks on web pages

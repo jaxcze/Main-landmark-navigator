@@ -1,5 +1,5 @@
 # Main Landmark Navigator — Czech translation
-# Copyright (C) 2026 Jan Balák & Claude
+# Copyright (C) 2026 Jan Balák
 msgid ""
 msgstr ""
 "Project-Id-Version: mainLandmarkNavigator 1.0.3\n"

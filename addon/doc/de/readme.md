@@ -1,7 +1,7 @@
 # Main Landmark Navigator
 
-**Version:** 1.0.3
-**Autor:** 2026 Jan Balák & Claude
+**Version:** 1.0.4
+**Autor:** 2026 Jan Balák
 **Lizenz:** GNU General Public License, Version 2
 **Mindest-NVDA-Version:** 2019.3
 **Getestet mit NVDA:** 2026.1
@@ -13,7 +13,7 @@ Main Landmark Navigator fügt eine Einzeltasten-Schnellnavigation für den ARIA-
 
 ## Installation
 
-1. Laden Sie `mainLandmarkNavigator-1.0.3.nvda-addon` herunter.
+1. Laden Sie `mainLandmarkNavigator-1.0.4.nvda-addon` herunter.
 2. Öffnen Sie die Datei bei laufendem NVDA und bestätigen Sie die Installation.
 3. Starten Sie NVDA neu, wenn Sie dazu aufgefordert werden.
 
@@ -27,6 +27,9 @@ Main Landmark Navigator fügt eine Einzeltasten-Schnellnavigation für den ARIA-
 Die Tasten sind nur im NVDA-Lesemodus aktiv. Die Eingabehilfe (NVDA+1 dann J) kündigt die Tastenkombination nur im Lesemodus an.
 
 ## Änderungsprotokoll
+
+### 1.0.4 (2026-08-26)
+- Korrektur: Autor-/Copyright-Metadaten (Manifest, Quellcode-Header, Übersetzungsvorlagen, sprachspezifische Readmes) nennen keinen KI-Assistenten mehr als Mitautor — alleiniger Autor ist Jan Balák. Keine funktionale Änderung.
 
 ### 1.0.3 (2026-08-22)
 - Korrektur: Die Erkennung des Hauptbereichs (Landmark „main") führt bei nicht passenden Orientierungspunkten nicht mehr zusätzlich die langsamere Rückfallprüfung aus, nachdem der schnelle Pfad bereits eine eindeutige Antwort geliefert hat.

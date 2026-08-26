@@ -8,8 +8,8 @@ focuses exclusively on the main landmark instead of all landmarks (D / Shift+D).
 
 ## Download
 
-Latest release: **1.0.3**  
-[Download mainLandmarkNavigator-1.0.3.nvda-addon](https://github.com/janbalak/mainLandmarkNavigator/releases/latest)
+Latest release: **1.0.4**  
+[Download mainLandmarkNavigator-1.0.4.nvda-addon](https://github.com/jaxcze/Main-landmark-navigator/releases/latest)
 
 Add-on homepage: <https://nvda-addons.janbalak.name/main-landmark-navigator/>
 
@@ -33,7 +33,7 @@ Add-on homepage: <https://nvda-addons.janbalak.name/main-landmark-navigator/>
 
 ## Installation
 
-1. Download `mainLandmarkNavigator-1.0.3.nvda-addon`.
+1. Download `mainLandmarkNavigator-1.0.4.nvda-addon`.
 2. Open the file while NVDA is running (Enter or double-click).
 3. Confirm the installation prompt and restart NVDA.
 
@@ -42,12 +42,12 @@ Add-on homepage: <https://nvda-addons.janbalak.name/main-landmark-navigator/>
 Requires Python 3.6+ and `gettext` (`msgfmt` on PATH).
 
 ```
-git clone https://github.com/janbalak/mainLandmarkNavigator.git
-cd mainLandmarkNavigator
+git clone https://github.com/jaxcze/Main-landmark-navigator.git
+cd Main-landmark-navigator
 python build.py
 ```
 
-Output: `mainLandmarkNavigator-1.0.3.nvda-addon`
+Output: `mainLandmarkNavigator-1.0.4.nvda-addon`
 
 ## License
 
@@ -55,9 +55,17 @@ GNU General Public License v2 — see [LICENSE](LICENSE).
 
 ## Author
 
-Jan Balák & Claude (Anthropic) — <https://janbalak.name>
+Jan Balák — <https://janbalak.name>
 
 ## Changelog
+
+### 1.0.4 (2026-08-26)
+- Fixed: `author`/copyright metadata (manifest, source header, translation
+  templates, per-language readmes) no longer credits an AI assistant as a
+  co-author — attributed to Jan Balák alone. No functional change.
+- Fixed: the download link and `git clone` URL in this README pointed at a
+  nonexistent repository (`janbalak/mainLandmarkNavigator`) instead of the
+  actual one (`jaxcze/Main-landmark-navigator`).
 
 ### 1.0.3 (2026-08-22)
 - Fixed: main-landmark detection no longer runs a redundant slow fallback

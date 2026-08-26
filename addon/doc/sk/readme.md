@@ -1,7 +1,7 @@
 # Main Landmark Navigator
 
-**Verzia:** 1.0.3
-**Autor:** 2026 Jan Balák & Claude
+**Verzia:** 1.0.4
+**Autor:** 2026 Jan Balák
 **Licencia:** GNU General Public License, verzia 2
 **Minimálna verzia NVDA:** 2019.3
 **Testované s NVDA:** 2026.1
@@ -13,7 +13,7 @@ Main Landmark Navigator pridáva jednoklávesovú rýchlu navigáciu pre orienta
 
 ## Inštalácia
 
-1. Stiahnite súbor `mainLandmarkNavigator-1.0.3.nvda-addon`.
+1. Stiahnite súbor `mainLandmarkNavigator-1.0.4.nvda-addon`.
 2. Otvorte súbor pri spustenom NVDA a potvrďte inštaláciu.
 3. Na požiadanie reštartujte NVDA.
 
@@ -27,6 +27,9 @@ Main Landmark Navigator pridáva jednoklávesovú rýchlu navigáciu pre orienta
 Klávesy fungujú iba v prehliadacom režime NVDA. Nápoveda k vstupu (NVDA+1 potom J) popis skratky zobrazí len v prehliadacom režime.
 
 ## Zoznam zmien
+
+### 1.0.4 (2026-08-26)
+- Oprava: autor/copyright metadáta (manifest, hlavička zdrojového kódu, šablóny prekladov, jazykové readme) už ako spoluautora neuvádzajú AI asistenta — autorom je len Jan Balák. Žiadna funkčná zmena.
 
 ### 1.0.3 (2026-08-22)
 - Oprava: detekcia hlavnej oblasti (landmark „main") už pri nesúvisiacich orientačných bodoch zbytočne nespúšťa aj pomalú záložnú kontrolu potom, čo rýchla cesta už dala jednoznačnú odpoveď.
