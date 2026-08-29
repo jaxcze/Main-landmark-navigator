@@ -1,7 +1,7 @@
 # Main Landmark Navigator
 
-**Version:** 1.0.4
-**Autor:** 2026 Jan Balák
+**Version:** 1.0.5
+**Autor:** Jan Balák
 **Lizenz:** GNU General Public License, Version 2
 **Mindest-NVDA-Version:** 2019.3
 **Getestet mit NVDA:** 2026.1
@@ -13,7 +13,7 @@ Main Landmark Navigator fügt eine Einzeltasten-Schnellnavigation für den ARIA-
 
 ## Installation
 
-1. Laden Sie `mainLandmarkNavigator-1.0.4.nvda-addon` herunter.
+1. Laden Sie `mainLandmarkNavigator-1.0.5.nvda-addon` herunter.
 2. Öffnen Sie die Datei bei laufendem NVDA und bestätigen Sie die Installation.
 3. Starten Sie NVDA neu, wenn Sie dazu aufgefordert werden.
 
@@ -27,6 +27,16 @@ Main Landmark Navigator fügt eine Einzeltasten-Schnellnavigation für den ARIA-
 Die Tasten sind nur im NVDA-Lesemodus aktiv. Die Eingabehilfe (NVDA+1 dann J) kündigt die Tastenkombination nur im Lesemodus an.
 
 ## Änderungsprotokoll
+
+### 1.0.5 (2026-08-27)
+- Korrektur: Das Feld `author` in `manifest.ini` beginnt nicht mehr mit einer
+  Jahreszahl — es ist ein reines Namensfeld, kein Copyright-Vermerk, und
+  enthält jetzt einfach „Jan Balák". Keine funktionale Änderung.
+- Änderung: Die Beschreibung von J / Shift+J im Dialog „Eingabegesten" (und
+  in der Eingabehilfe) erwähnt jetzt neben „Hauptbereich" auch „Haupt-
+  Landmark", damit sie unter beiden Begriffen gefunden wird. Reaktion auf
+  Reviewer-Feedback bei der Einreichung im NVDA Add-on Store
+  (nvaccess/addon-datastore#11129).
 
 ### 1.0.4 (2026-08-26)
 - Korrektur: Autor-/Copyright-Metadaten (Manifest, Quellcode-Header, Übersetzungsvorlagen, sprachspezifische Readmes) nennen keinen KI-Assistenten mehr als Mitautor — alleiniger Autor ist Jan Balák. Keine funktionale Änderung.

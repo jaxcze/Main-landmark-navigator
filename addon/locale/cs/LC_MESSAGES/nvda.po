@@ -2,7 +2,7 @@
 # Copyright (C) 2026 Jan Balák
 msgid ""
 msgstr ""
-"Project-Id-Version: mainLandmarkNavigator 1.0.3\n"
+"Project-Id-Version: mainLandmarkNavigator 1.0.5\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,11 +15,11 @@ msgstr "Žádná další hlavní oblast"
 msgid "No previous main region"
 msgstr "Žádná předchozí hlavní oblast"
 
-msgid "Moves to the next main region on the web page"
-msgstr "Přesune se na další hlavní oblast na webové stránce"
+msgid "Moves to the next main landmark (main region) on the web page"
+msgstr "Přesune se na další hlavní oblast (landmark main) na webové stránce"
 
-msgid "Moves to the previous main region on the web page"
-msgstr "Přesune se na předchozí hlavní oblast na webové stránce"
+msgid "Moves to the previous main landmark (main region) on the web page"
+msgstr "Přesune se na předchozí hlavní oblast (landmark main) na webové stránce"
 
 msgid "Main region"
 msgstr "Hlavní oblast"

@@ -1,7 +1,7 @@
 # Main Landmark Navigator
 
-**Verze:** 1.0.4
-**Autor:** 2026 Jan Balák
+**Verze:** 1.0.5
+**Autor:** Jan Balák
 **Licence:** GNU General Public License, verze 2
 **Minimální verze NVDA:** 2019.3
 **Testováno s NVDA:** 2026.1
@@ -13,7 +13,7 @@ Main Landmark Navigator přidává jednoklávesovou rychlou navigaci pro orienta
 
 ## Instalace
 
-1. Stáhněte soubor `mainLandmarkNavigator-1.0.4.nvda-addon`.
+1. Stáhněte soubor `mainLandmarkNavigator-1.0.5.nvda-addon`.
 2. Otevřete soubor při spuštěném NVDA a potvrďte instalaci.
 3. Na požádání restartujte NVDA.
 
@@ -33,6 +33,15 @@ Pokud v daném směru žádná hlavní oblast neexistuje, NVDA ohlásí: *Žádn
 Otevřete **nabídka NVDA → Předvolby → Vstupní gesta**, vyhledejte *main* a příkazy najdete v kategorii **Prohlížecí režim**.
 
 ## Seznam změn
+
+### 1.0.5 (2026-08-27)
+- Oprava: pole `author` v `manifest.ini` už neobsahuje rok na začátku — je to
+  obyčejné pole pro uvedení autora, ne autorskoprávní doložka, takže teď
+  obsahuje jednoduše „Jan Balák". Žádná funkční změna.
+- Změna: popis J / Shift+J v dialogu Vstupní gesta (a v nápovědě ke vstupu)
+  teď zmiňuje i „hlavní landmark" vedle „hlavní oblasti", ať se dá najít pod
+  oběma výrazy. Reakce na zpětnou vazbu recenzenta při podání do NVDA Add-on
+  Store (nvaccess/addon-datastore#11129).
 
 ### 1.0.4 (2026-08-26)
 - Oprava: autor/copyright metadata (manifest, hlavička zdrojového kódu, šablony překladů, jazykové readme) už jako spoluautora neuvádí AI asistenta — autorem je pouze Jan Balák. Žádná funkční změna.

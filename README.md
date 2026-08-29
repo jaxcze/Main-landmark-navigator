@@ -8,8 +8,8 @@ focuses exclusively on the main landmark instead of all landmarks (D / Shift+D).
 
 ## Download
 
-Latest release: **1.0.4**  
-[Download mainLandmarkNavigator-1.0.4.nvda-addon](https://github.com/jaxcze/Main-landmark-navigator/releases/latest)
+Latest release: **1.0.5**  
+[Download mainLandmarkNavigator-1.0.5.nvda-addon](https://github.com/jaxcze/Main-landmark-navigator/releases/latest)
 
 Add-on homepage: <https://nvda-addons.janbalak.name/main-landmark-navigator/>
 
@@ -33,7 +33,7 @@ Add-on homepage: <https://nvda-addons.janbalak.name/main-landmark-navigator/>
 
 ## Installation
 
-1. Download `mainLandmarkNavigator-1.0.4.nvda-addon`.
+1. Download `mainLandmarkNavigator-1.0.5.nvda-addon`.
 2. Open the file while NVDA is running (Enter or double-click).
 3. Confirm the installation prompt and restart NVDA.
 
@@ -47,7 +47,7 @@ cd Main-landmark-navigator
 python build.py
 ```
 
-Output: `mainLandmarkNavigator-1.0.4.nvda-addon`
+Output: `mainLandmarkNavigator-1.0.5.nvda-addon`
 
 ## License
 
@@ -58,6 +58,15 @@ GNU General Public License v2 — see [LICENSE](LICENSE).
 Jan Balák — <https://janbalak.name>
 
 ## Changelog
+
+### 1.0.5 (2026-08-27)
+- Fixed: `author` in `manifest.ini` no longer carries a leading year — it's a
+  plain attribution field, not a copyright notice, so it now just reads
+  "Jan Balák". No functional change.
+- Changed: the input help / Input Gestures dialog description for J / Shift+J
+  now mentions "main landmark" alongside "main region", so it's found by
+  either term. Addressed reviewer feedback from the NVDA Add-on Store
+  submission (nvaccess/addon-datastore#11129).
 
 ### 1.0.4 (2026-08-26)
 - Fixed: `author`/copyright metadata (manifest, source header, translation

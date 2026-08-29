@@ -4,7 +4,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mainLandmarkNavigator 1.0.3\n"
+"Project-Id-Version: mainLandmarkNavigator 1.0.5\n"
 "Report-Msgid-Bugs-To: jan@janbalak.name\n"
 "POT-Creation-Date: 2026-08-22 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -27,12 +27,12 @@ msgstr ""
 
 #. Translators: Description in the NVDA Input Gestures dialog.
 #: addon/globalPlugins/mainLandmarkNavigator.py
-msgid "Moves to the next main region on the web page"
+msgid "Moves to the next main landmark (main region) on the web page"
 msgstr ""
 
 #. Translators: Description in the NVDA Input Gestures dialog.
 #: addon/globalPlugins/mainLandmarkNavigator.py
-msgid "Moves to the previous main region on the web page"
+msgid "Moves to the previous main landmark (main region) on the web page"
 msgstr ""
 
 #. Translators: Fallback announced when main region found but full speech fails.

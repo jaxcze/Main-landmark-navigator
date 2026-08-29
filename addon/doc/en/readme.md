@@ -1,7 +1,7 @@
 # Main Landmark Navigator
 
-**Version:** 1.0.4
-**Author:** 2026 Jan Balák
+**Version:** 1.0.5
+**Author:** Jan Balák
 **License:** GNU General Public License, version 2
 **Minimum NVDA version:** 2019.3
 **Tested with NVDA:** 2026.1
@@ -13,7 +13,7 @@ Main Landmark Navigator adds single-key quick navigation for the `<main>` ARIA l
 
 ## Installation
 
-1. Download `mainLandmarkNavigator-1.0.4.nvda-addon`.
+1. Download `mainLandmarkNavigator-1.0.5.nvda-addon`.
 2. Open the file while NVDA is running and confirm the installation.
 3. Restart NVDA when asked.
 
@@ -38,6 +38,15 @@ When no main region exists in the requested direction, NVDA announces:
 Open **NVDA menu → Preferences → Input Gestures**, search for *main*, find the commands under the **Browse mode** category and reassign as needed.
 
 ## Changelog
+
+### 1.0.5 (2026-08-27)
+- Fixed: `author` in `manifest.ini` no longer carries a leading year — it's a
+  plain attribution field, not a copyright notice, so it now just reads
+  "Jan Balák". No functional change.
+- Changed: the input help / Input Gestures dialog description for J / Shift+J
+  now mentions "main landmark" alongside "main region", so it's found by
+  either term. Addressed reviewer feedback from the NVDA Add-on Store
+  submission (nvaccess/addon-datastore#11129).
 
 ### 1.0.4 (2026-08-26)
 - Fixed: author/copyright metadata (manifest, source header, translation templates, per-language readmes) no longer credits an AI assistant as a co-author — attributed to Jan Balák alone. No functional change.

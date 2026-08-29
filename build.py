@@ -16,7 +16,7 @@ for _stream in (sys.stdout, sys.stderr):
         _stream.reconfigure(encoding="utf-8", errors="replace")
 
 ADDON_NAME  = "mainLandmarkNavigator"
-VERSION     = "1.0.4"
+VERSION     = "1.0.5"
 OUTPUT_FILE = f"{ADDON_NAME}-{VERSION}.nvda-addon"
 
 ROOT       = Path(__file__).resolve().parent
